@@ -84,12 +84,22 @@ left:100px;;}
 }
 
 .gatorPond{
-    max-width: 75%;
-    max-height: 75%;
+    max-width: 50%;
+    max-height: 50%;
     position: relative;
-    top:250px;
+    top:400px;
     right:10px;
 }
+
+
+.gatorPond:hover{
+    max-height: 51%;
+    max-width: 51%;
+    cursor: pointer;
+    position: relative;
+
+}
+
 
 /* .linda {
   max-width: 100%;
@@ -115,8 +125,28 @@ left:100px;;}
 }
 
 
-#testimonials {
+#wishes {
   background-color: #74BDCB;
+  padding-bottom: 20px;
+
+}
+
+.wishesHeader
+{
+  text-align: center;
+  font-size: 2.5rem;
+  line-height: 1.5;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-top: 0px;
+    background-color: white;
+    color: #74BDCB;
+    max-width: 100%;
+    width: 400px;
+    border-style: solid;
+    border-top-width: 25px;
+    border-color: #74BDCB;
+    border-radius: 25px;
 }
 
 .testimonial-text {
@@ -135,6 +165,12 @@ left:100px;;}
   font-family: Times new roman;
   font-size: 3rem;
 }
+
+.footer1 {
+  background-color: white;
+  height: 30px;
+}
+
 
 #features {
   position: relative;
@@ -220,5 +256,10 @@ left:100px;;}
     top: 75px;
     right: 0px;
   }
+
+  /* .pickle{
+    position: absolute;
+    transform: rotate(35deg)
+  } */
 
 }

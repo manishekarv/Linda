@@ -36,7 +36,6 @@ setInterval(function (){$("h1").text("was a virtual mug...")}, 6000);
 
 }
 
-
 $(".linda").hide();
 $(".weekend").hide();
 $(".talkweekend").hide();
