@@ -40,7 +40,7 @@ $(".linda").hide();
 $(".weekend").hide();
 $(".talkweekend").hide();
 $(".headertalk").hide();
-$(".gatorPond").click(function(){
+$(".gator").click(function(){
   setTimeout(function (){openingText()}, 1500)
   $(".linda").show();
   setInterval(function (){$(".headertalk").show()}, 1000);
